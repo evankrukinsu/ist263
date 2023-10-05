@@ -1,0 +1,17 @@
+h1 {color: indianred;}
+h2 {color:bisque}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: blanchedalmond;
+}
+ h1 {font-size: 3em;}
+        
+p {
+    font-size: 2em;
+    font-weight: bolder;
+    background-color: antiquewhite;
+}
+p a {text-decoration: none;}
+#secondpara {color: darkslategray;}
+.yellow {color: cornflowerblue;}

@@ -1,0 +1,16 @@
+h1 {color: indianred;}
+h2 {color: cornflowerblue;}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: white;
+}
+
+#secondpara {color: darkslategray;}
+.evenrow {background-color: lightgray;}
+.head {background-color: gray;}
+
+h1 {font-size: 3em;}
+h2 {font-size: 2em;}
+
+td, th {border: 1px solid black;}
