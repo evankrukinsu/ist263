@@ -1,6 +1,7 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #FFF8C9;
+    color: #292331;
 }
 
 h1 {font-size: 3em;}
@@ -14,8 +15,8 @@ h1 {color: #648297;
 
 nav a:hover {color: #64CCC5;} 
 nav {color: #DFCCFB;}
-nav a {color: #DFCCFB;}
-h1, h2, h3, h4, h5, h6 {color: #BEADFA;} 
+nav a {color: #c4b3dd;}
+h2 {color: #BEADFA;} 
 
 nav {
     padding: 10px; /* Padding is inside the box */
