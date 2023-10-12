@@ -1,0 +1,29 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #FFF8C9;
+}
+
+h1 {font-size: 3em;}
+h2 {font-size: 2em;}
+
+td, th {border: 1px solid black;}
+
+h1 {color: #648297;
+    background-color:#333333
+}
+
+nav a:hover {color: #64CCC5;} 
+nav {color: #DFCCFB;}
+nav a {color: #DFCCFB;}
+h1, h2, h3, h4, h5, h6 {color: #BEADFA;} 
+
+nav {
+    padding: 10px; /* Padding is inside the box */
+    border: 2px solid #333333;
+    margin-bottom: 30px;
+    background-color: #628987;
+}
+
+#secondpara {color: darkslategray;}
+.evenrow {background-color: lightgray;}
+.head {background-color: gray;}
