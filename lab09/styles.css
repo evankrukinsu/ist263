@@ -1,0 +1,97 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #FFF8C9;
+    color: #292331;
+}
+
+h1 {font-size: 3em;}
+h2 {font-size: 2em;}
+
+td, th {border: 1px solid black;}
+
+h1 {color: #648297;
+}
+
+nav a:hover {color: #64CCC5;} 
+nav {color: #4b7797;} 
+nav a {color: #4b7797;}
+
+nav {
+    padding: 10px; /* Padding is inside the box */
+    border: 2px solid #333333;
+    margin-bottom: 30px;
+    background-color: #DFCCFB;
+}
+
+#secondpara {color: darkslategray;}
+.evenrow {background-color: #DFCCFB;}
+.head {background-color: gray;}
+.quote {float: right;}
+.copy {float: left;}
+
+
+.row1x {display: flex; background-color: rgb(108, 108, 160); border-radius: 1em;padding: 20px;margin: 10px;}
+.row1xpart1,.row1xpart2{margin: 10px;}
+.row1xpart1 {flex: 1;}
+.row1xpart2 {flex: 1;}
+
+.row2x {display: flex; background-color: rgb(153, 108, 160); border-radius: 1em;padding: 20px;margin: 10px;}
+.row2xpart1,.row1xpart2{margin: 10px;}
+.row2xpart1 {flex: 1;order: 2;}
+.row2xpart2 {flex: 1;order: 1;}
+
+.contact {border-radius: 1em;}
+
+.size {
+    width: 50px;
+    height: 50px;
+}
+
+
+
+
+
+/** flexbox **/
+nav {
+    display: flex;
+}
+nav div{
+    padding: 5px;
+}
+
+.flexbox2 {
+    display: flex; 
+    margin: 30px;
+} 
+
+.split {
+    display: flex;
+    justify-content: space-around;
+}
+
+.first{text-align: center}
+
+
+
+
+.sidebar {
+    background-color: #ADD8E6;
+    color: #000000;
+    border-radius: 10px;
+    width: 250px;
+    padding: 10px;
+}
+
+
+
+.split, .extracredit {flex: 3}
+.sidebar, .extracreditside {flex: 1}
+
+
+.intro {
+    margin-bottom: 50px;
+}
+
+
+
+
