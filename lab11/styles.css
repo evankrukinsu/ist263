@@ -13,8 +13,8 @@ h2 {font-size: 2em;}
 td, th {border: 1px solid black;}
 
 nav a:hover {color: #64CCC5;} 
-nav {color: #4b7797;} 
-nav a {color: #4b7797;}
+nav {color: #2574ac;} 
+nav a {color: #2574ac;}
 
 nav {
     padding: 10px; /* Padding is inside the box */
