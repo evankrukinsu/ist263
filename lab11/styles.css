@@ -30,13 +30,13 @@ nav {
 .copy {float: left;}
 
 
-.row1x {display: flex; background-color: rgb(108, 108, 160); border-radius: 1em;padding: 20px;margin: 10px;}
+.row1x {display: flex; background-color: rgb(142, 155, 163); border-radius: 1em;padding: 20px;margin: 10px;}
 .row1xpart1,.row1xpart2{margin: 10px;}
 .row1xpart1 {flex: 1;}
 .row1xpart2 {flex: 1;}
 
-.row2x {display: flex; flex-wrap: wrap; background-color: rgb(153, 108, 160); border-radius: 1em;padding: 20px;margin: 10px;}
-.row2xpart1,.row1xpart2{margin: 10px;}s
+.row2x {display: flex; flex-wrap: wrap; background-color: rgb(195, 169, 198); border-radius: 1em;padding: 20px;margin: 10px;}
+.row2xpart1,.row1xpart2{margin: 10px;}
 .row2xpart1 {flex: 1}
 .row2xpart2 {flex: 1}
 
