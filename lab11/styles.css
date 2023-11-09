@@ -30,7 +30,7 @@ nav {
 .copy {float: left;}
 
 
-.row1x {display: flex; background-color: rgb(142, 155, 163); border-radius: 1em;padding: 20px;margin: 10px;}
+.row1x {display: flex; background-color: rgb(178, 172, 172); border-radius: 1em;padding: 20px;margin: 10px;}
 .row1xpart1,.row1xpart2{margin: 10px;}
 .row1xpart1 {flex: 1;}
 .row1xpart2 {flex: 1;}
