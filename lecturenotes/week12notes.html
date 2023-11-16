@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Javascript Program</title>
+    <style>
+        .blue {
+            color: rgb(182, 92, 200);
+            text-decoration: underline;
+        }
+    </style>
+    <script>
+        function welcome () {
+        alert("Hello World!");
+    }
+    function second () {
+        alert("Second Message.");
+    }
+    function third () {
+        alert("Third Message.");
+    }
+    </script>
+
+</head>
+<body onload="second();">
+    <h1 onmouseover="third();">JavaScript</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem vitae, reiciendis asperiores quaerat ad tempora dolor illo distinctio porro officiis, iste, corporis necessitatibus expedita sequi animi culpa accusantium odit blanditiis?</p>
+    <a class="blue" onclick="welcome();">Run Welcome Message!</a>
+</body>
+</html>
