@@ -1,0 +1,81 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #fff9d0;
+    color: #292331;
+}
+h1 {font-size: 3em;}
+h2 {font-size: 2em;}
+
+
+
+nav a:hover {color: #cc6464;} 
+nav {color: #0f324b;} 
+nav a {color: #0f324b;}
+
+nav {
+    padding: 7px; /* Padding is inside the box */
+    border: 2px solid #a88080;
+    margin-bottom: 25px;
+    background-color: #ffc6c6;
+    border-radius: 5px;
+    font-size: 1.15em;
+    display: flex;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #963434;
+}
+
+.chosen {color: #963434;}
+
+
+
+@media only screen and (max-width: 770px) {
+    nav {display: block;}
+    nav a {
+        display: block;
+        margin: 0 10px;
+        padding: 2px;
+      }
+    span {display: none;}   
+      
+}
+
+
+.row1x {display: flex; flex-wrap: wrap; border-radius: 1em; padding: 20px; margin: 10px;}
+.row1xpart1,.row1xpart2{margin: 10px;}
+.row1xpart1 {flex: 1;}
+.row1xpart2 {flex: 1;}
+
+.row2x {display: flex; flex-wrap: wrap; border-radius: 1em; padding: 20px; margin: 10px;}
+.row2xpart1,.row2xpart2, .row2xpart3{margin: 10px;}
+.row2xpart1 {flex: 1;}
+.row2xpart2 {flex: 1;}
+.row2xpart3 {flex: 1;}
+
+
+nav div{
+    padding: 5px;
+}
+
+
+
+.indeximage{max-width: 100%;}
+.image{max-width: 90%;}
+
+
+
+.skip {
+    background-color: #ADD8E6;
+    padding: 5px;
+    border: 1px solid #000000;
+    text-decoration: none;
+    position: absolute;
+    top: 10px;
+    left: -999px;
+}
+.skip:focus {
+    left: 10px;
+}
