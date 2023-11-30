@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE WORLD OF GAME OF THRONES</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        function daeneryscharactertext () {
+            document.getElementById("daenerys").setAttribute("src", "textdaenerys.jpg")
+        }
+        function daeneryscharacterimage () {
+            document.getElementById("daenerys").setAttribute("src", "daenerys.jpg")
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <h1>THE WORLD OF GAME OF THRONES</h1>
+        <nav>
+            <a href="#main" class="skip" tabindex="1">Skip to Content</a>
+            <a class="chosen" href="index.html">Home</a> <span>&vert;</span>
+            <a href="characters.html">Characters</a> <span>&vert;</span>
+            <a href="quiz.html">Quiz</a>
+        </nav>
+        <hr>
+    </header>
+    <main>
+        <div class="row1x">
+            <div class="row1xpart1">
+                <h2 id="main">Welcome to the World of Game of Thrones!</h2>
+                <p>Game of Thrones is a fascinating journey into the depths of humanity, set in a world where summers 
+                span decades and winter can last a lifetime. This epic fantasy series, based on the bestselling books by 
+                George R.R. Martin, has captured the hearts of millions worldwide. The narrative takes place in the 
+                continents of Westeros and Essos, where royal families compete for dominance over the Seven Kingdoms. 
+                The plot spans eight seasons, instigated by the demise of Jon Arryn, the King’s Hand, triggering a series of events 
+                encompassing political schemes, conspiracies, assassinations, and battles for power.</p>
+            </div>
+            <div class="row1xpart2">
+                <img src="westeros.jpg" alt="map of the land of westeros in game of thrones" class="indeximage">
+            </div>
+        </div>
+        <div class="row2x">
+            <div class="row2xpart1">
+                <h2>THE SHOW</h2>
+                <p>Game of Thrones first premiered on HBO in 2011 and ran for a total of eight seasons, concluding in 
+                    2019. The series is known for its complex characters and character arcs, intricate political plots, and 
+                    stunning visual effects. It has won numerous awards and has been praised for its production value, 
+                    storytelling, and intricate characters.</p>
+            </div>
+            <div class="row2xpart2">
+            <h2>THE WORLD</h2>
+            <p>The series takes place in the fictional continents of Westeros and Essos, with a long history stretching 
+                thousands of years. Westeros is divided into several regions, each ruled by a noble family, while Essos is 
+                home to ancient cities and nomadic tribes. The series’ rich lore and massive world-building are part of 
+                what makes it so engaging.</p>
+            </div>
+            <div class="row2xpart3">
+            <h2>CHARACTERS </h2>
+            <p>Game of Thrones boasts a vast ensemble cast from noble families, praised messiahs, exiled outcasts, 
+                and everyone in between. Some fan-favorite characters include Daenerys Targaryen, the exiled princess 
+                turned powerful queen; Jon Snow, the honorable warrior with a mysterious past; and many others.</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="row2x">
+            <div class="row2xpart1"></div>
+            <div class="row2xpart2">
+                <a href="characters.html">
+                    <img id="daenerys" onmouseover="daeneryscharactertext();" onmouseout="daeneryscharacterimage();" src="daenerys.jpg" class="indeximage" alt="Daenerys early season 1">
+                </a>
+            </div>
+            <div class="row2xpart3"></div>
+        </div>
+    </footer>
+
+</body>
+</html>
