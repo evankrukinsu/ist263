@@ -49,20 +49,16 @@ hr {
     display: flex;
     flex-direction: row;
 }
-
 .row1xpart2 {
     flex: 1;
 }
-
 .row1xpart1 {
     flex: 2;
 }
-
 @media (max-width: 768px) {
     .row1x {
         flex-direction: column;
     }
-
     .row1xpart1, .row1xpart2 {
         flex: none;
     }
