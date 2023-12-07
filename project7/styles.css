@@ -1,5 +1,5 @@
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Georgia', 'Sans Serif', serif;
     background-color: #fff9d0;
     color: #292331;
 }
@@ -42,6 +42,33 @@ hr {
     span {display: none;}   
       
 }
+
+
+
+.row1x {
+    display: flex;
+    flex-direction: row;
+}
+
+.row1xpart2 {
+    flex: 1;
+}
+
+.row1xpart1 {
+    flex: 2;
+}
+
+@media (max-width: 768px) {
+    .row1x {
+        flex-direction: column;
+    }
+
+    .row1xpart1, .row1xpart2 {
+        flex: none;
+    }
+}
+
+
 
 
 .row1x {display: flex; flex-wrap: wrap; border-radius: 1em; padding: 20px; margin: 10px;}
